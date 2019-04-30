@@ -1,0 +1,14 @@
+C:\src\CoreWebAppSandbox\CoreWebAppSandbox\bin\Debug\netcoreapp2.2\CoreWebAppSandbox.deps.json
+C:\src\CoreWebAppSandbox\CoreWebAppSandbox\bin\Debug\netcoreapp2.2\CoreWebAppSandbox.runtimeconfig.json
+C:\src\CoreWebAppSandbox\CoreWebAppSandbox\bin\Debug\netcoreapp2.2\CoreWebAppSandbox.runtimeconfig.dev.json
+C:\src\CoreWebAppSandbox\CoreWebAppSandbox\bin\Debug\netcoreapp2.2\CoreWebAppSandbox.dll
+C:\src\CoreWebAppSandbox\CoreWebAppSandbox\bin\Debug\netcoreapp2.2\CoreWebAppSandbox.pdb
+C:\src\CoreWebAppSandbox\CoreWebAppSandbox\obj\Debug\netcoreapp2.2\CoreWebAppSandbox.csprojAssemblyReference.cache
+C:\src\CoreWebAppSandbox\CoreWebAppSandbox\obj\Debug\netcoreapp2.2\CoreWebAppSandbox.csproj.CoreCompileInputs.cache
+C:\src\CoreWebAppSandbox\CoreWebAppSandbox\obj\Debug\netcoreapp2.2\CoreWebAppSandbox.RazorAssemblyInfo.cache
+C:\src\CoreWebAppSandbox\CoreWebAppSandbox\obj\Debug\netcoreapp2.2\CoreWebAppSandbox.RazorAssemblyInfo.cs
+C:\src\CoreWebAppSandbox\CoreWebAppSandbox\obj\Debug\netcoreapp2.2\CoreWebAppSandbox.AssemblyInfoInputs.cache
+C:\src\CoreWebAppSandbox\CoreWebAppSandbox\obj\Debug\netcoreapp2.2\CoreWebAppSandbox.AssemblyInfo.cs
+C:\src\CoreWebAppSandbox\CoreWebAppSandbox\obj\Debug\netcoreapp2.2\CoreWebAppSandbox.RazorTargetAssemblyInfo.cache
+C:\src\CoreWebAppSandbox\CoreWebAppSandbox\obj\Debug\netcoreapp2.2\CoreWebAppSandbox.dll
+C:\src\CoreWebAppSandbox\CoreWebAppSandbox\obj\Debug\netcoreapp2.2\CoreWebAppSandbox.pdb
