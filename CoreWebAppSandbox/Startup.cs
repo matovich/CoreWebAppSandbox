@@ -1,7 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
+using System.Net;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -9,6 +12,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+
+using Microsoft.AspNetCore.Http;
 
 namespace CoreWebAppSandbox
 {
@@ -24,10 +29,11 @@ namespace CoreWebAppSandbox
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
-
-
-            //.AddCookie(options =>
+            services.AddMvc()
+                .AddCookieTempDataProvider()
+                .SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+          //  services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(options => new CookieOptions { Expires = DateTime.Now.AddMinutes(25) });
+            //    .AddCookie(options =>
             //{
             //    options.Events = new Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationEvents
             //    {
